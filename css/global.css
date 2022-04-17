@@ -1,0 +1,87 @@
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(0, 33, 65, 0.43);
+  transition: opacity 1s ease, width 0.2s ease 1s;
+  pointer-events: none;
+}
+
+@media (max-width: 991.98px) {
+  .overflow-hidden .overlay {
+    width: 100%;
+    opacity: 1;
+    transition: opacity 1s ease;
+    z-index: 1;
+    pointer-events: initial;
+  }
+
+  main {
+    transition: 0.8s filter ease;
+  }
+  .overflow-hidden main {
+    filter: blur(8px);
+  }
+}
+
+@media (max-width: 991.98px) {
+  main {
+    transition: 0.8s filter ease;
+  }
+  .overflow-hidden main {
+    filter: blur(8px);
+  }
+}
+
+@media (min-width: 992px) {
+  #cursorMask {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 42px;
+    width: 42px;
+    pointer-events: none;
+    z-index: 300;
+    /* background: url('/imgs/mouse_popcorn.svg') center no-repeat;
+    background-size: contain; */
+    will-change: transform;
+    transition: transform 0.2s ease-out, border-color 0.3s ease;
+  }
+  #cursorMask.active {
+    display: flex;
+  }
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 176px;
+  height: 50px;
+  padding: 20px;
+  background: linear-gradient(90deg, #710101 0%, #ff0000 51.04%, #710101 100%);
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 14px rgba(0, 0, 0, 0.32);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (min-width: 992px) {
+  .btn {
+    height: 60px;
+    font-size: 20px;
+    min-width: 203px;
+  }
+}

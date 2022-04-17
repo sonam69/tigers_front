@@ -1,0 +1,276 @@
+/* @import "./variables"; */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  /*vertical-align: baseline;*/
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+div {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media (max-width: 991.98px) {
+  * {
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  *:focus,
+  *::selection {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Righteous', cursive; */
+
+body {
+  color: white;
+  background: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+}
+
+h1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+strong {
+  font-weight: 400;
+}
+
+b {
+  font-weight: 700;
+  color: #8e44ad;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  color: white;
+}
+
+a:hover,
+a:active {
+  color: #b3ac37;
+}
+
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+h2 {
+  font-family: "Righteous", cursive;
+  font-size: 35px;
+  line-height: 48px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #fd8d6a;
+  margin-bottom: 16px;
+}
+
+i {
+  font-style: italic;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  h2 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(179, 172, 55, 0.6) rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(179, 172, 55, 0.6);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+/* @media (min-width: 992px) {
+  *,
+  *:hover {cursor: url('../imgs/mouse_orange.svg'), auto !important;}
+} */
+/* @media (min-width: 992px) {
+  *,
+  *:hover {cursor: url('../imgs/mouse_popcorn.png'), auto !important;}
+} */

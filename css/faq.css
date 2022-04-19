@@ -1,0 +1,133 @@
+.faq_wrapper {
+  padding: 32px 0 52px;
+  position: relative;
+  z-index: 0;
+}
+
+.faq_wrapper::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background: linear-gradient(180deg, #100202 40.14%, #4a0000 158.2%);
+}
+
+.faq {
+  margin: 0 auto 0;
+  max-width: 1006px;
+  position: relative;
+  z-index: 0;
+}
+
+.faq_wrapper h2 {
+  margin-bottom: 30px;
+}
+
+.faq_item {
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  position: relative;
+}
+.faq_item + .faq_item {
+  margin-top: 20px;
+}
+
+.faq_item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  pointer-events: none;
+  box-shadow: 0px 0 14px #f90000, 0 0 12px inset #f90000;
+  z-index: -1;
+}
+
+.faq h3 {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  min-height: 72px;
+  padding: 8px 50px 8px 20px;
+  color: white;
+  text-align: left;
+  margin-bottom: 0;
+  position: relative;
+}
+.faq h3 span {
+  height: 12px;
+  width: 8px;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease;
+}
+.faq h3[aria-expanded="true"] span {
+  transform: translateY(-50%) rotate(90deg);
+}
+.faq h3 span::before,
+.faq h3 span::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: white;
+  transform-origin: right;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.faq h3 span::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.faq p {
+  padding: 0 20px;
+  line-height: 22px;
+  color: #e57c5e;
+  margin-bottom: 0;
+}
+.faq p:last-of-type {
+  padding-bottom: 30px;
+}
+.faq p + p {
+  margin-top: 6px;
+}
+
+@media (min-width: 992px) {
+  .faq_wrapper {
+    padding: 80px 0 90px;
+  }
+  .faq_wrapper::before {
+    background: linear-gradient(180deg, #100202 40.14%, #4a0000 158.2%);
+  }
+
+  .faq_wrapper h2 {
+    margin-bottom: 68px;
+  }
+
+  .faq_item + .faq_item {
+    margin-top: 30px;
+  }
+  .faq_item::before {
+    box-shadow: 0px 0 16px #f90000, 0 0 16px inset #f90000;
+  }
+
+  .faq_item h3 {
+    font-size: 20px;
+    line-height: 30px;
+    min-height: 90px;
+  }
+
+  .faq_item p {
+    font-weight: 500;
+  }
+}

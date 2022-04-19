@@ -197,7 +197,7 @@ a {
 
 a:hover,
 a:active {
-  color: #b3ac37;
+  color: #ddca21;
 }
 
 h2,
@@ -253,7 +253,7 @@ p {
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(179, 172, 55, 0.6) rgba(0, 0, 0, 0);
+  scrollbar-color: rgba(249, 0, 0, 0.5); rgba(0, 0, 0, 0);
 }
 
 ::-webkit-scrollbar {
@@ -262,7 +262,7 @@ p {
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 4px;
-  background-color: rgba(179, 172, 55, 0.6);
+  background-color: rgba(249, 0, 0, 0.5);
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
 }
 

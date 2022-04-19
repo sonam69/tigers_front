@@ -86,6 +86,10 @@
     height: 190px;
   }
 
+  .card_wrapper h2 {
+    margin-bottom: 96px;
+  }
+
   .card_img {
     position: absolute;
     left: 0;

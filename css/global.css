@@ -76,6 +76,7 @@
   cursor: pointer;
   font-size: 16px;
   font-weight: 500;
+  transition: color 0.3s ease, border-color 0.3s ease;
 }
 
 @media (min-width: 992px) {
@@ -83,5 +84,10 @@
     height: 60px;
     font-size: 20px;
     min-width: 203px;
+  }
+
+  .btn:hover {
+    color: #ddca21;
+    border-color: #ddca21;
   }
 }

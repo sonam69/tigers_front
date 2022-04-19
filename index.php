@@ -33,10 +33,15 @@
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/meetTheTeam.css">
     <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/tokenomics.css">
+    <link rel="stylesheet" href="libraries/collapse/collapse.css">
+    <link rel="stylesheet" href="css/faq.css">
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="libraries/waypoints/jquery.waypoints.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="libraries/collapse/util.js"></script>
 </head>
 
 <body id="bd">
@@ -175,8 +180,100 @@
                 </div>
             </div>
         </section>
+        <section class="tokenomics_wrapper">
+            <div class="container">
+                <h2>Tokenomics</h2>
+                <div class="tokenomics">
+                    <div class="tokenomics_card">
+                        <h3>300 HWT will be sold for 100 XRP in Presale PHASE 1</h3>
+                    </div>
+
+                    <div class="tokenomics_card">
+                        <h3>100 HWT will be sold for Popcorn ONLY</h3>
+                    </div>
+
+                    <div class="tokenomics_card">
+                        <h3>300 HWT will be sold for? XRP in Presale Phase 2<h3>
+                    </div>
+
+                    <div class="tokenomics_card">
+                        <h3>50 HWT will be given to active members in discord as a reward<h3>
+                    </div>
+
+                    <div class="tokenomics_card">
+                        <h3>40 HWT will be given to giveaways<h3>
+                    </div>
+
+                    <div class="tokenomics_card">
+                        <h3>60 HWT will be given to DEV team (20 each)</h3>
+                    </div>
+
+                    <div class="tokenomics_card">
+                        <h3>150 HWT are left undecided how they will be distributed
+                            <small>(maybe minted beforeXLS-20d)</small>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq_wrapper">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div id="faq" class="faq">
+                    <div class="faq_item">
+                        <h3 data-toggle="collapse" data-target="#collapse1">How are HWT?<span></span></h3>
+                        <div class="collapse" id="collapse1" data-parent="#faq">
+                            <p>Mint of all 1000 HWT will commence on Q3 of 2022. Some early HWT may be minted before
+                                depending on what community would like.</p>
+                            <p>Mint of all 1000 HWT will commence on Q3 of 2022. Some early HWT may be minted before
+                                depending on what community would like.</p>
+                        </div>
+                    </div>
+                    <div class="faq_item">
+                        <h3 data-toggle="collapse" data-target="#collapse2">How many HWT are going to be
+                            minted?<span></span></h3>
+                        <div class="collapse" id="collapse2" data-parent="#faq">
+                            <p>Mint of all 1000 HWT will commence on Q3 of 2022. Some early HWT may be minted before
+                                depending on what community would like.</p>
+                        </div>
+                    </div>
+                    <div class="faq_item">
+                        <h3 data-toggle="collapse" data-target="#collapse3">When is mint possible?<span></span></h3>
+                        <div class="collapse" id="collapse3" data-parent="#faq">
+                            <p>Mint of all 1000 HWT will commence on Q3 of 2022. Some early HWT may be minted before
+                                depending on what community would like.</p>
+                        </div>
+                    </div>
+                    <div class="faq_item">
+                        <h3 data-toggle="collapse" data-target="#collapse4">How am I eligible for the
+                            AIRDROP?<span></span></h3>
+                        <div class="collapse" id="collapse4" data-parent="#faq">
+                            <p>Mint of all 1000 HWT will commence on Q3 of 2022. Some early HWT may be minted before
+                                depending on what community would like.</p>
+                        </div>
+                    </div>
+                    <div class="faq_item">
+                        <h3 data-toggle="collapse" data-target="#collapse5">How is Buyback of Popcorn
+                            sustainable?<span></span></h3>
+                        <div class="collapse" id="collapse5" data-parent="#faq">
+                            <p>Mint of all 1000 HWT will commence on Q3 of 2022. Some early HWT may be minted before
+                                depending on what community would like.</p>
+                        </div>
+                    </div>
+                    <div class="faq_item">
+                        <h3 data-toggle="collapse" data-target="#collapse6">What products am I able to but with
+                            Popcorn?<span></span></h3>
+                        <div class="collapse" id="collapse6" data-parent="#faq">
+                            <p>Mint of all 1000 HWT will commence on Q3 of 2022. Some early HWT may be minted before
+                                depending on what community would like.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <?php include_once("partial/footer.php"); ?>
+    <script type="text/javascript" src="libraries/collapse/collapse.js"></script>
 </body>
 
 </html>

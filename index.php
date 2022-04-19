@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/utility.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/banner.css">

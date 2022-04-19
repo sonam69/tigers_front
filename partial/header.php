@@ -13,7 +13,7 @@
         </div>
         <div class="header_right">
             <ul class="social">
-                <li><a class="discord"><span>DISCORD</span></a></li>
+                <li><a href="" class="discord" title="discord"><span>DISCORD</span></a></li>
             </ul>
             <div id="burger" onclick="toggle_menu(true)">
                 <span></span>

@@ -1,0 +1,37 @@
+footer {
+  padding: 50px 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: normal;
+}
+
+footer .container > span {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.footer_social {
+  margin-bottom: 20px;
+}
+
+.footer_social a {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background: green;
+}
+.footer_social a + a {
+  margin-left: 15px;
+}
+
+.footer_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_links span {
+  padding: 0 20px;
+}

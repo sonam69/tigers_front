@@ -60,6 +60,7 @@
   text-align: left;
   margin-bottom: 0;
   position: relative;
+  cursor: pointer;
 }
 .faq h3 span {
   height: 12px;

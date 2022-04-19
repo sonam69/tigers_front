@@ -13,17 +13,38 @@ footer .container > span {
 }
 
 .footer_social {
-  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
 }
 
 .footer_social a {
   display: inline-block;
-  height: 16px;
-  width: 16px;
-  background: green;
+  height: 22px;
+  width: 22px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .footer_social a + a {
   margin-left: 15px;
+}
+
+.footer_social .twitter {
+  background-image: url(../imgs/social/twitter.svg);
+}
+.footer_social .instagram {
+  background-image: url(../imgs/social/instagram.svg);
+}
+.footer_social .discord {
+  background-image: url(../imgs/social/discord.svg);
+}
+.footer_social .opensce {
+  background-image: url(../imgs/social/opensce.svg);
+}
+.footer_social .opensce {
+  height: 20px;
 }
 
 .footer_links {
@@ -34,4 +55,25 @@ footer .container > span {
 
 .footer_links span {
   padding: 0 20px;
+}
+
+@media (min-width: 992px) {
+  footer {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 24px 0;
+  }
+  footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer .container > span,
+  .footer_social {
+    margin-bottom: 0;
+  }
+
+  .footer_social a + a {
+    margin-left: 22px;
+  }
 }

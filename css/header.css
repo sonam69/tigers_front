@@ -121,7 +121,7 @@ header .social a {
   background-size: contain;
 }
 header .social .discord {
-  background-image: url(../imgs/social/twitter.svg);
+  background-image: url(../imgs/social/discord.svg);
 }
 
 header .social a + a {

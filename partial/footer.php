@@ -5,7 +5,7 @@
             <a href="" target="blank" class="twitter" title="twitter"></a>
             <a href="" target="blank" class="instagram" title="instagram"></a>
             <a href="" target="blank" class="discord" title="discord"></a>
-            <a href="" target="blank" class="token" title="token"></a>
+            <a href="" target="blank" class="opensce" title="opensce"></a>
         </div>
         <div class="footer_links">
             <a href="privacy" target="blank" title="privacy policy">Privacy Policy</a>

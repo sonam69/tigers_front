@@ -5,10 +5,14 @@
             <button class="close" onclick="(toggle_menu(false))" style="right: 17px;"></button>
             <ul class="navigation">
                 <li><a href="/">Home</a></li>
-                <li><a onclick="moveTo('.banner')">About</a></li>
+                <!-- <li><a onclick="moveTo('.banner')">About</a></li>
                 <li><a onclick="moveTo('.meet')">Team</a></li>
                 <li><a href="whitepaper">White Paper</a></li>
-                <li><a onclick="moveTo('.roadmap')">Road Map</a></li>
+                <li><a onclick="moveTo('.roadmap')">Road Map</a></li> -->
+                <li><a href="/#banner">About</a></li>
+                <li><a href="/#meet">Team</a></li>
+                <li><a href="whitepaper">White Paper</a></li>
+                <li><a href="/#roadmap">Road Map</a></li>
             </ul>
         </div>
         <div class="header_right">

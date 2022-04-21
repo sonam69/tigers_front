@@ -20,6 +20,21 @@ $(document).ready(function () {
   //     });
   //   }
 
+  function checkForHash() {
+    console.log(window.location.hash);
+    if (window.location.hash) {
+      setTimeout(function () {
+        moveTo("." + window.location.hash.substring(1));
+      }, 1000);
+    }
+  }
+
+  checkForHash();
+
+  $(".navigation a").click(function () {
+    checkForHash();
+  });
+
   moveTo = function (selector) {
     $("body").removeClass("overflow-hidden menu_is_open");
     if (document.querySelector(selector)) {

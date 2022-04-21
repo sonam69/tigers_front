@@ -9,8 +9,8 @@
         </div>
         <div class="footer_links">
             <a href="privacy" target="blank" title="privacy policy">Privacy Policy</a>
-            <span>|</span>
-            <a href="privacy" target="blank" title="Terms & Conditions">Terms & Conditions</a>
+            <!-- <span>|</span>
+            <a href="terms" target="blank" title="Terms & Conditions">Terms & Conditions</a> -->
         </div>
     </div>
 </footer>

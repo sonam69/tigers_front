@@ -5,19 +5,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Xislanders is a blockchain game that runs on XRPL. Xdinos are the mythic beasts that live in the Xislanders world. Xdinos are hand-drawn NFTs with utility and are minted with a fixed amount of XDNT on them.">
-    <meta name="keywords" content="nft, game, crypto, online game, nft game, xislanders, x islanders">
+        content="Hollywood Tigers is a blockchain game that runs on XRPL. Xdinos are the mythic beasts that live in the Hollywood Tigers world. Xdinos are hand-drawn NFTs with utility and are minted with a fixed amount of XDNT on them.">
+    <meta name="keywords" content="nft, game, crypto, online game, nft game, Hollywood Tigers, x islanders">
     <meta http-equiv="content-language" content="en-us">
-    <title>Xislanders</title>
+    <title>Hollywood Tigers</title>
 
-    <meta property="og:title" content="Xislanders">
-    <meta property="og:url" content="https://xislanders.com/">
+    <meta property="og:title" content="Hollywood Tigers">
+    <meta property="og:url" content="https://hollywoodtigers.com/">
     <meta property="og:description" content="NFT GAME">
     <meta property="og:type" content="website">
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Xislanders" />
-    <meta name="twitter:url" content="https://xislanders.com/" />
+    <meta name="twitter:title" content="Hollywood Tigers" />
+    <meta name="twitter:url" content="https://hollywoodtigers.com/" />
     <meta name="twitter:description" content="NFT GAME" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -69,7 +69,7 @@
                             that will help its members, educate them and also help them navigate on the XRPL ecosystem
                             that is growing.</p>
                         <p>Our goal for the future is: To be one of the Original Projects on XRPL. Our community to be
-                            authentic and strong, well-educated on what is happening in the world. We want people to
+                            authentic and strong, well educated on what is happening in the world. We want people to
                             seek us for information, one of the greatest resources in our world.</p>
                     </div>
                     <div class="banner_image">
@@ -190,7 +190,7 @@
                     </div>
 
                     <div class="tokenomics_card">
-                        <h3>100 HWT will be sold for Popcorn ONLY</h3>
+                        <h3>200 HWT will be sold for Popcorn ONLY</h3>
                     </div>
 
                     <div class="tokenomics_card">
@@ -210,8 +210,8 @@
                     </div>
 
                     <div class="tokenomics_card">
-                        <h3>150 HWT are left undecided how they will be distributed
-                            <small>(maybe minted beforeXLS-20d)</small>
+                        <h3>50 HWT are left undecided how they will be distributed
+                            <small>(maybe minted before XLS-20d)</small>
                         </h3>
                     </div>
                 </div>
@@ -222,20 +222,17 @@
                 <h2>Frequently Asked Questions</h2>
                 <div id="faq" class="faq">
                     <div class="faq_item">
-                        <h3 data-toggle="collapse" data-target="#collapse1">How are HWT?<span></span></h3>
+                        <h3 data-toggle="collapse" data-target="#collapse1">What are HWT?<span></span></h3>
                         <div class="collapse" id="collapse1" data-parent="#faq">
-                            <p>Mint of all 1000 HWT will commence on Q3 of 2022. Some early HWT may be minted before
-                                depending on what community would like.</p>
-                            <p>Mint of all 1000 HWT will commence on Q3 of 2022. Some early HWT may be minted before
-                                depending on what community would like.</p>
+                            <p>Hollywood Tigers, is a community of Tigers actors, that are making their debut on the
+                                XRPL</p>
                         </div>
                     </div>
                     <div class="faq_item">
                         <h3 data-toggle="collapse" data-target="#collapse2">How many HWT are going to be
                             minted?<span></span></h3>
                         <div class="collapse" id="collapse2" data-parent="#faq">
-                            <p>Mint of all 1000 HWT will commence on Q3 of 2022. Some early HWT may be minted before
-                                depending on what community would like.</p>
+                            <p>There will be only 1.000 Hollywood tigers ever minted.</p>
                         </div>
                     </div>
                     <div class="faq_item">
@@ -249,24 +246,28 @@
                         <h3 data-toggle="collapse" data-target="#collapse4">How am I eligible for the
                             AIRDROP?<span></span></h3>
                         <div class="collapse" id="collapse4" data-parent="#faq">
-                            <p>Mint of all 1000 HWT will commence on Q3 of 2022. Some early HWT may be minted before
-                                depending on what community would like.</p>
+                            <p>There will be no Airdrop happening for HWT. Giveaways will occur in discord members that
+                                are engaging with community.</p>
                         </div>
                     </div>
                     <div class="faq_item">
                         <h3 data-toggle="collapse" data-target="#collapse5">How is Buyback of Popcorn
                             sustainable?<span></span></h3>
                         <div class="collapse" id="collapse5" data-parent="#faq">
-                            <p>Mint of all 1000 HWT will commence on Q3 of 2022. Some early HWT may be minted before
-                                depending on what community would like.</p>
+                            <p>Accumulating of Popcorn for holders that stake their tokens will start occurring when
+                                Presale phase 1 is sold out. Every month up to 1500 XRP worth of Popcorn will be bought.
+                                This helps our ecosystem to attain a pressure in the Popcorn price until we release our
+                                Products that will be bought only with Popcorn. The buying back will last for 6 months
+                                maximum.</p>
                         </div>
                     </div>
                     <div class="faq_item">
                         <h3 data-toggle="collapse" data-target="#collapse6">What products am I able to but with
                             Popcorn?<span></span></h3>
                         <div class="collapse" id="collapse6" data-parent="#faq">
-                            <p>Mint of all 1000 HWT will commence on Q3 of 2022. Some early HWT may be minted before
-                                depending on what community would like.</p>
+                            <p>In order to use Popcorn to buy our Products you will need to hold at least one HWT. HWT
+                                IOUS, special NFT items and merchandise will be able to be bought with Popcorn in
+                                special prices.</p>
                         </div>
                     </div>
                 </div>

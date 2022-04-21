@@ -159,7 +159,7 @@ body {
   letter-spacing: 0.4px;
 }
 
-h1 {
+h1:not(.vis) {
   position: absolute;
   width: 1px;
   height: 1px;

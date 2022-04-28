@@ -1,14 +1,16 @@
 <footer>
     <div class="container">
-        <span>© 2022, Hollywood Tigers. All Rights Reserved</span>
+        <span class="fadeInUp">© 2022, Hollywood Tigers. All Rights Reserved</span>
         <div class="footer_social">
-            <a href="" target="blank" class="twitter" title="twitter"></a>
-            <a href="" target="blank" class="instagram" title="instagram"></a>
-            <a href="" target="blank" class="discord" title="discord"></a>
-            <a href="" target="blank" class="opensce" title="opensce"></a>
+            <a href="https://twitter.com/TigersHollywood" target="blank" class="twitter fadeInUp delay1000"
+                title="twitter"></a>
+            <!-- <a href="" target="blank" class="instagram" title="instagram"></a> -->
+            <a href="https://discord.gg/KehegsXN" target="blank" class="discord fadeInUp delay1200" title="discord"></a>
+            <a href="https://xrpl.services/?issuer=rGXPVoPPk8d2cSKFzvugzgTRfyro96z937&currency=HWT&limit=1000&fbclid=IwAR1iKBCcjQB9KVl6gshhuEsuB40UMP2ZsxPpbrLxJcuedHhg_zgNSeywpC8"
+                target="blank" class="opensce fadeInUp delay1000" title="opensce"></a>
         </div>
         <div class="footer_links">
-            <a href="privacy" target="blank" title="privacy policy">Privacy Policy</a>
+            <a href="privacy" target="blank" title="privacy policy" class="fadeInUp">Privacy Policy</a>
             <!-- <span>|</span>
             <a href="terms" target="blank" title="Terms & Conditions">Terms & Conditions</a> -->
         </div>

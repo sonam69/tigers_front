@@ -10,6 +10,7 @@
   position: relative;
   overflow: hidden;
   z-index: 0;
+  justify-content: space-between;
 }
 
 .hero::before {

@@ -4,9 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description"
-        content="Hollywood Tigers is a blockchain game that runs on XRPL. Xdinos are the mythic beasts that live in the Hollywood Tigers world. Xdinos are hand-drawn NFTs with utility and are minted with a fixed amount of XDNT on them.">
-    <meta name="keywords" content="nft, game, crypto, online game, nft game, Hollywood Tigers, x islanders">
+    <meta name="description" content="Hollywood Tigers is a blockchain game that runs on XRPL.">
+    <meta name="keywords" content="nft, game, crypto, online game, nft game, Hollywood Tigers">
     <meta http-equiv="content-language" content="en-us">
     <title>Hollywood Tigers</title>
 
@@ -36,6 +35,7 @@
     <link rel="stylesheet" href="css/card.css">
     <link rel="stylesheet" href="css/tokenomics.css">
     <link rel="stylesheet" href="libraries/collapse/collapse.css">
+    <link rel="stylesheet" href="css/book.css">
     <link rel="stylesheet" href="css/faq.css">
 
 
@@ -50,19 +50,20 @@
     <main>
         <section class="hero">
             <div class="hero_body container">
-                <h2>Hollywood Tigers Club</h2>
-                <p>Hollywood tigers is the most snob club on the XRPL. We are Grumpy, we are Snob, we are stars we are
+                <h2 class="fadeIn delay1400ms">Hollywood Tigers Club</h2>
+                <p class="fadeIn delay1800ms">Hollywood tigers is the most snob club on the XRPL. We are Grumpy, we are
+                    Snob, we are stars we are
                     the Hollywood tigers of the XRPL. There will be only 1.000 Hollywood tigers created.</p>
-                <a class="btn">Enter the club</a>
+                <a class="btn fadeIn delay2200ms" target="_blank" href="https://discord.gg/KehegsXN">Enter the club</a>
             </div>
             <div class="hero_image_wrapper">
-                <div class="hero_image"></div>
+                <div class="hero_image fadeIn delay1000ms"></div>
             </div>
         </section>
         <section class="banner">
             <div class="banner_body">
                 <div class="container">
-                    <div class="banner_content">
+                    <div class="banner_content fadeInUp">
                         <h2>About <br>Hollywood Tigers</h2>
                         <h3>Are you kind enough?</h3>
                         <p>OUR vision is to create an exclusive club for tigers. We want to create an ELITE community,
@@ -72,7 +73,7 @@
                             authentic and strong, well educated on what is happening in the world. We want people to
                             seek us for information, one of the greatest resources in our world.</p>
                     </div>
-                    <div class="banner_image">
+                    <div class="banner_image fadeInUp">
 
                     </div>
                 </div>
@@ -80,25 +81,28 @@
             <div class="banner_footer">
                 <div class="container">
                     <div class="banner_cards_wrapper">
-                        <a class="banner_card">
+                        <a class="banner_card fadeInUp delay400ms" title="trustline" target="_blank"
+                            href="https://xrpl.services/?issuer=rGXPVoPPk8d2cSKFzvugzgTRfyro96z937&currency=HWT&limit=1000&fbclid=IwAR1iKBCcjQB9KVl6gshhuEsuB40UMP2ZsxPpbrLxJcuedHhg_zgNSeywpC8">
                             <div class="banner_card_img">
                                 <img src="../imgs/banner/guard.svg">
                             </div>
                             SET TRUSTLINE </br>FOR HWT
                         </a>
-                        <a class="banner_card">
+                        <a class="banner_card fadeInUp delay600ms" target="_blank" href="" title="WHT">
                             <div class="banner_card_img">
                                 <img src="../imgs/banner/cart.svg">
                             </div>
                             BUY WHT
                         </a>
-                        <a class="banner_card">
+                        <a class="banner_card fadeInUp delay800ms" target="_blank" href="https://discord.gg/KehegsXN"
+                            title="discord">
                             <div class="banner_card_img">
                                 <img src="../imgs/banner/discord.svg">
                             </div>
                             JOIN </br>DISCORD
                         </a>
-                        <a class="banner_card">
+                        <a class="banner_card fadeInUp delay1000ms" target="_blank"
+                            href="https://twitter.com/TigersHollywood" title="twitter">
                             <div class="banner_card_img">
                                 <img src="../imgs/banner/twitter.svg">
                             </div>
@@ -109,8 +113,8 @@
             </div>
         </section>
         <section class="meet">
-            <h2>Meet The Team</h2>
-            <div class="meet_body">
+            <h2 class="fadeInUp">Meet The Team</h2>
+            <div class="meet_body fadeInUp">
                 <span class="left"></span>
                 <span class="right"></span>
                 <span class="top"></span>
@@ -161,8 +165,8 @@
         </section>
         <section class="card_wrapper">
             <div class="container">
-                <h2>Our Whitepaper</h2>
-                <div class="card">
+                <h2 class="fadeInUp">Our Whitepaper</h2>
+                <div class="card fadeInUp">
                     <div class="card_img">
                         <img src="../imgs/tigers/tiger_transp.png">
                     </div>
@@ -176,40 +180,40 @@
                             that knows its worth.</p>
                         <p>Our actions will not stop at acting only! There is a whole Digital ecosystem growing with us.
                         </p>
-                        <a class="btn" href="">Read more</a>
+                        <a class="btn" href="/whitepaper">Read more</a>
                     </div>
                 </div>
             </div>
         </section>
         <section class="tokenomics_wrapper">
             <div class="container">
-                <h2>Tokenomics</h2>
+                <h2 class="fadeInUp">Tokenomics</h2>
                 <div class="tokenomics">
-                    <div class="tokenomics_card">
+                    <div class="tokenomics_card fadeInUp">
                         <h3>300 HWT will be sold for 100 XRP in Presale PHASE 1</h3>
                     </div>
 
-                    <div class="tokenomics_card">
+                    <div class="tokenomics_card fadeInUp">
                         <h3>200 HWT will be sold for Popcorn ONLY</h3>
                     </div>
 
-                    <div class="tokenomics_card">
+                    <div class="tokenomics_card fadeInUp">
                         <h3>300 HWT will be sold for? XRP in Presale Phase 2<h3>
                     </div>
 
-                    <div class="tokenomics_card">
+                    <div class="tokenomics_card fadeInUp">
                         <h3>50 HWT will be given to active members in discord as a reward<h3>
                     </div>
 
-                    <div class="tokenomics_card">
+                    <div class="tokenomics_card fadeInUp">
                         <h3>40 HWT will be given to giveaways<h3>
                     </div>
 
-                    <div class="tokenomics_card">
+                    <div class="tokenomics_card fadeInUp">
                         <h3>60 HWT will be given to DEV team (20 each)</h3>
                     </div>
 
-                    <div class="tokenomics_card">
+                    <div class="tokenomics_card fadeInUp">
                         <h3>50 HWT are left undecided how they will be distributed
                             <small>(maybe minted before XLS-20d)</small>
                         </h3>
@@ -217,32 +221,177 @@
                 </div>
             </div>
         </section>
+        <section class="book_wrapper roadmap">
+            <h2 class="fadeInUp">Roadmap</h2>
+            <div class="container">
+                <div class="book_frame book_frame_small fadeInUp">
+                    <div class="book">
+                        <div class="page p1 flippedAlways">
+                            <div class="back">
+                                <div class="back_content">
+                                    <div class="page_content">
+                                        <h3>Q2 2022</h3>
+                                        <ul>
+                                            <li>HWT token will be created</li>
+                                            <li>KYCe’d</li>
+                                            <li>Laynch of website</li>
+                                            <li>Twitter</li>
+                                            <li>Discord</li>
+                                            <li>Start of Marketing</li>
+                                            <li>Showcase of art</li>
+                                            <li>Staking process</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page p2">
+                            <div class="front">
+                                <div class="page_content">
+                                    <h3>Q3 2022</h3>
+                                    <ul>
+                                        <li>Minting process</li>
+                                        <li>Showcase of HWT items</li>
+                                        <li>Merchandise creation</li>
+                                        <li>Seek for Collaborations</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back_content">
+                                    <div class="page_content">
+                                        <h3>Q4 2022</h3>
+                                        <ul>
+                                            <li>Seek for a home to place our WHTs (open for metaverse collaboration with
+                                                other projects)</li>
+                                            <li>Will try to establish our brand on the XRPL ecosystem</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page p3">
+                            <div class="front">
+                                <div class="page_content">
+                                    <h3>Q4 2022</h3>
+                                    <ul>
+                                        <li>Depending on our growth and community strong moves will happen to make
+                                            sure our Brand stays strong!!!</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back_content">
+                                    <div class="page_content">
+                                        <h3>Q4 2022</h3>
+                                        <ul>
+                                            <li>We will seek Ambassadors for a greater Marketing outside of XRPL, we
+                                                plan to establish our brand even further when cross chain is happening
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page p4 flippedNever">
+                            <div class="front">
+                                <div class="page_content">
+                                    <h3>Q1 2023</h3>
+                                    <strong>Coming Soon...</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="book_frame book_frame_big fadeInUp">
+                    <div class="book">
+                        <div class="page p1 flippedAlways">
+                            <div class="back">
+                                <div class="back_content">
+                                    <div class="page_content">
+                                        <h3>Q2 2022</h3>
+                                        <ul>
+                                            <li>HWT token will be created</li>
+                                            <li>KYCe’d</li>
+                                            <li>Laynch of website</li>
+                                            <li>Twitter</li>
+                                            <li>Discord</li>
+                                            <li>Start of Marketing</li>
+                                            <li>Showcase of art</li>
+                                            <li>Staking process</li>
+                                        </ul>
+                                        <div class="seperated">
+                                            <h3>Q3 2022</h3>
+                                            <ul>
+                                                <li>Minting process</li>
+                                                <li>Showcase of HWT items</li>
+                                                <li>Merchandise creation</li>
+                                                <li>Seek for Collaborations</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page p2">
+                            <div class="front">
+                                <div class="page_content">
+                                    <h3>Q4 2022</h3>
+                                    <ul>
+                                        <li>Seek for a home to place our WHTs (open for metaverse collaboration with
+                                            other projects)</li>
+                                        <li>Will try to establish our brand on the XRPL ecosystem</li>
+                                        <li>Depending on our growth and community strong moves will happen to make
+                                            sure our Brand stays strong!!!</li>
+                                        <li>We will seek Ambassadors for a greater Marketing outside of XRPL, we
+                                            plan to establish our brand even further when cross chain is happening
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back_content">
+                                    <div class="page_content">
+                                        <h3>Q1 2023</h3>
+                                        <strong>Coming Soon...</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="book_arrows">
+                    <div class="arrow arrow_left disabled"></div>
+                    <div class="arrow arrow_right"></div>
+                </div>
+            </div>
+        </section>
         <section class="faq_wrapper">
             <div class="container">
-                <h2>Frequently Asked Questions</h2>
+                <h2 class="fadeInUp">Frequently Asked Questions</h2>
                 <div id="faq" class="faq">
-                    <div class="faq_item">
+                    <div class="faq_item fadeInUp">
                         <h3 data-toggle="collapse" data-target="#collapse1">What are HWT?<span></span></h3>
                         <div class="collapse" id="collapse1" data-parent="#faq">
                             <p>Hollywood Tigers, is a community of Tigers actors, that are making their debut on the
                                 XRPL</p>
                         </div>
                     </div>
-                    <div class="faq_item">
+                    <div class="faq_item fadeInUp">
                         <h3 data-toggle="collapse" data-target="#collapse2">How many HWT are going to be
                             minted?<span></span></h3>
                         <div class="collapse" id="collapse2" data-parent="#faq">
                             <p>There will be only 1.000 Hollywood tigers ever minted.</p>
                         </div>
                     </div>
-                    <div class="faq_item">
+                    <div class="faq_item fadeInUp">
                         <h3 data-toggle="collapse" data-target="#collapse3">When is mint possible?<span></span></h3>
                         <div class="collapse" id="collapse3" data-parent="#faq">
                             <p>Mint of all 1000 HWT will commence on Q3 of 2022. Some early HWT may be minted before
                                 depending on what community would like.</p>
                         </div>
                     </div>
-                    <div class="faq_item">
+                    <div class="faq_item fadeInUp">
                         <h3 data-toggle="collapse" data-target="#collapse4">How am I eligible for the
                             AIRDROP?<span></span></h3>
                         <div class="collapse" id="collapse4" data-parent="#faq">
@@ -250,7 +399,7 @@
                                 are engaging with community.</p>
                         </div>
                     </div>
-                    <div class="faq_item">
+                    <div class="faq_item fadeInUp">
                         <h3 data-toggle="collapse" data-target="#collapse5">How is Buyback of Popcorn
                             sustainable?<span></span></h3>
                         <div class="collapse" id="collapse5" data-parent="#faq">
@@ -261,7 +410,7 @@
                                 maximum.</p>
                         </div>
                     </div>
-                    <div class="faq_item">
+                    <div class="faq_item fadeInUp">
                         <h3 data-toggle="collapse" data-target="#collapse6">What products am I able to but with
                             Popcorn?<span></span></h3>
                         <div class="collapse" id="collapse6" data-parent="#faq">

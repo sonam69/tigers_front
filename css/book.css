@@ -1,0 +1,343 @@
+.book_wrapper {
+  padding: 26px 0 26px;
+  background: url(../imgs/book/bg_mbl.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.book_wrapper h2 {
+  margin-bottom: 35px;
+}
+
+.book_frame * {
+  pointer-events: none;
+  user-select: none;
+}
+
+.book_frame strong {
+  width: 100%;
+  text-align: Center;
+  display: block;
+  color: black;
+  font-size: 14px;
+}
+
+.book_arrows {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+  position: relative;
+  z-index: 0;
+}
+
+.arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 48px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin: 0 16px;
+  cursor: pointer;
+  position: relative;
+}
+.arrow::after {
+  content: "";
+  height: 10px;
+  width: 30px;
+  background: url(../imgs/book/arrow_left.svg) center no-repeat;
+  background-size: contain;
+}
+
+.arrow_right::after {
+  background-image: url(../imgs/book/arrow_right.svg);
+}
+
+.arrow::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  pointer-events: none;
+  box-shadow: 0px 0 14px #f90000, 0 0 12px inset #f90000;
+  z-index: -1;
+}
+
+.book_frame {
+  width: 368px;
+  margin: 0 auto;
+}
+
+.book {
+  display: flex;
+  /* height: 278px; */
+  padding-top: 74%;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.book::before,
+.book::after {
+  content: "";
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: translateX(-98%);
+  z-index: -1;
+}
+.book::before {
+  background-image: url(../imgs/book/book_left.png);
+}
+.book::after {
+  left: unset;
+  background-image: url(../imgs/book/book_right.png);
+  transform: translateX(97%);
+}
+
+.book_page {
+  height: 100%;
+  width: 50%;
+  background: url(../imgs/book/book_page_left.png) center no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transition: transform 0.5s ease;
+}
+
+/* .book {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  background: green;
+  margin-left: 500px;
+} */
+
+.book .page {
+  position: absolute;
+  height: 100%;
+  width: 47%;
+  left: 50%;
+  top: 0;
+  transition: z-index 0s linear 0.4s;
+  perspective: 1500px;
+}
+
+.book .back,
+.book .front {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  /* background: red; */
+  transition: transform 0.8s linear;
+  transform-origin: left;
+}
+
+.book .flipped .back,
+.book .flipped .front,
+.book .flippedAlways .back,
+.book .flippedAlways .front {
+  transform: rotateY(-180deg);
+}
+
+.book .page:not(.flippedNever) .front {
+  background: url(../imgs/book/book_page_right.png) center no-repeat;
+  background-size: contain;
+}
+
+.book .page:not(.flippedAlways) .back {
+  background: url(../imgs/book/book_page_right.png) center no-repeat;
+  background-size: contain;
+}
+
+.book .front {
+  z-index: 1;
+  backface-visibility: hidden;
+}
+.book .back {
+  z-index: 0;
+}
+.book .back_content {
+  transform: rotateY(180deg);
+}
+
+.p1 {
+  z-index: 6;
+}
+.p2 {
+  z-index: 5;
+}
+.p3 {
+  z-index: 4;
+}
+.p4 {
+  z-index: 3;
+}
+.p5 {
+  z-index: 2;
+}
+.p6 {
+  z-index: 1;
+}
+
+.p1 + .flipped {
+  z-index: 10;
+}
+.p2 + .flipped {
+  z-index: 11;
+}
+.p3 + .flipped {
+  z-index: 12;
+}
+.p4 + .flipped {
+  z-index: 13;
+}
+.p5 + .flipped {
+  z-index: 14;
+}
+.p6 + .flipped {
+  z-index: 15;
+}
+
+.page_content {
+  padding: 16px;
+  padding-top: 17px;
+}
+
+.page_content h3 {
+  font-family: "Righteous", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: black;
+  margin-bottom: 6px;
+}
+
+.page_content ul {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: black;
+}
+
+.page_content li {
+}
+
+.page_content li::before {
+  content: "";
+  display: inline-block;
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background: black;
+  margin-right: 4px;
+  margin-bottom: 2px;
+}
+
+.page_content li + li {
+  margin-top: 2px;
+}
+
+/* .book_wrapper:hover .page .front,
+.book_wrapper:hover .page .back {
+  will-change: transform;
+} */
+.book_frame_big {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .book_wrapper {
+    background: url(../imgs/book/Frame.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+  }
+  .book_wrapper::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../imgs/book/frame_cover.png);
+
+    z-index: -1;
+  }
+
+  .book_frame {
+    width: 800px;
+  }
+
+  .book_frame strong {
+    font-size: 18px;
+  }
+
+  .page_content {
+    padding: 38px 68px 26px;
+  }
+
+  .page_content h3 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 65px;
+  }
+
+  .page_content ul {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .book_frame {
+    width: 1010px;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .page_content {
+    padding: 50px 76px 26px;
+  }
+
+  .book_frame_small {
+    display: none;
+  }
+  .book_frame_big {
+    display: block;
+  }
+
+  .seperated {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+    padding-top: 26px;
+    position: relative;
+  }
+  .seperated::before,
+  .seperated::after {
+    content: "";
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: -5px;
+    top: -4px;
+    transform: rotate(45deg);
+  }
+  .seperated::after {
+    left: auto;
+    right: -5px;
+  }
+}

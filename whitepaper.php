@@ -92,14 +92,18 @@
                     Popcorns held in the 1st wallet (the one holding the issuing tokens) will be burned. This will give
                     Popcorns deflationary value. The only Popcorns that will be left, will be those that are already
                     circulating.</p>
-                <p>1/3 of the money the project will be making will be Reinvested. This will happen for 2 reasons. 1st:
-                    We are planning to make a brand out of our name. We will be the most exclusive club and we plan on
-                    be active with many more features joining our brand later on. Planning on ahead, it is better to
+                <p>1/3 of the total assets the project will be making will be Reinvested. This will happen for 2
+                    reasons.
+                    1st: We are planning to make a brand out of our name. We will be the most exclusive club and we plan
+                    on be active with many more features joining our brand later on. Planning on ahead, it is better to
                     make our money work for us instead of sitting on a bank account.</p>
                 <p>2nd: Our most trusted club members will be rewarded from these money as dividends. Holders of 20 or
-                    more tokens will be getting dividends depending on their holdings. Later on, when it will be
-                    possible to combine your actor with his items, a whole combined NFT, will be also taking some of the
-                    profits.</p>
+                    more tokens will be getting dividends depending on their holdings. The NFT created by the
+                    combination of the Actor and their Item will count as 5 HWT. Meaning that holding just 4 of those
+                    combined NFTs makes you eligible for dividends. Holders of 50 HWT or IOUs will be able to decide
+                    once per month where should be the next investment (10% of the FUND) should be. The investment to be
+                    chosen must have certain requirements such as to provide passive income be more than 6 months old,
+                    not be a scum etc.</p>
                 <p>Why not take those money for ourselves? Those money are for the project in order to be safe and
                     wealth in depended. Also, as an exclusive club we believe that our biggest asset is our club members
                     and that is why they must be rewarded. Although the capital will not be much at start, ongoing into

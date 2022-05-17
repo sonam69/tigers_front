@@ -63,8 +63,10 @@
                     to buy. With Popcorn you will be able to buy some of HWT tokens in discount, also, special items
                     from the movies will be able to be bought with Popcorn. (Tonny Montana’s Little friend, or Jack’s
                     Sparow’s compass in NFTs). When an individual manages to hold both the hero of the movie and his
-                    favorite item, then they will be able to ask our artist to make them a new NFT featuring both NFTs.
-                    In order for this request to take place Popcorn must be paid.</p>
+                    favorite item, then they will be able to ask our artist to make them a new combined NFT featuring
+                    both NFTs (the two NFTs will be merged into one, thus they will be burned). In order for this
+                    request to take place Popcorn must be paid. As we evolve our ecosystem Popcorn will be getting more
+                    utility as voting rights and more.</p>
                 <h2>Post Presale</h2>
                 <p>When first presale ends, tokens will be staked. Everyone will be able to stake their tokens with only
                     one condition tokens must be staked at full entities (1 full token, 10 full tokens not 1,5 not

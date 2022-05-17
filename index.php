@@ -4,20 +4,23 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Hollywood Tigers is a blockchain game that runs on XRPL.">
-    <meta name="keywords" content="nft, game, crypto, online game, nft game, Hollywood Tigers">
+    <meta name="description"
+        content="Hollywood Tigers is the most elegant, snob, old-fashioned club you will ever find. Join our club in order to become member to one of the most limited spaces clubs in the space.">
+    <meta name="keywords" content="nft, crypto, mint, airdrop, Hollywood Tigers">
     <meta http-equiv="content-language" content="en-us">
     <title>Hollywood Tigers</title>
 
     <meta property="og:title" content="Hollywood Tigers">
     <meta property="og:url" content="https://hollywoodtigers.com/">
-    <meta property="og:description" content="NFT GAME">
+    <meta property="og:description"
+        content="Hollywood Tigers is the most elegant, snob, old-fashioned club you will ever find.">
     <meta property="og:type" content="website">
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Hollywood Tigers" />
     <meta name="twitter:url" content="https://hollywoodtigers.com/" />
-    <meta name="twitter:description" content="NFT GAME" />
+    <meta name="twitter:description"
+        content="Hollywood Tigers is the most elegant, snob, old-fashioned club you will ever find." />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -124,13 +127,13 @@
                         <img src="/imgs/tigers/tiger1.jpg">
                     </div>
                     <div class="meet_card_body">
-                        <h3>Andrew Mack</h3>
-                        <h4>Founder & CEO</h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                            voluptatem sequi nesciunt.</p>
+                        <h3>Danny</h3>
+                        <h4>Financial Manager</h4>
+                        <p>Has a Master in Investment and finance. He started trading crypto since 2016. Danny is the
+                            financial manager of our Project, the person responsible for the investments of the Fund and
+                            the person that created the tokenomics. He owns a financial consultancy company that will
+                            help the project creating relationships within the sector. His MOTO is “ money brings
+                            money”.</p>
                     </div>
                 </div>
                 <div class="meet_card">
@@ -138,13 +141,13 @@
                         <img src="/imgs/tigers/tiger2.jpg">
                     </div>
                     <div class="meet_card_body">
-                        <h3>Andrew Mack</h3>
-                        <h4>Founder & CEO</h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                            voluptatem sequi nesciunt.</p>
+                        <h3>Sergio</h3>
+                        <h4>Relationship Manager</h4>
+                        <p>Is a Real Estate lawyer based in Italy, that has taken a liking to the blockchain since 2018.
+                            Currently working as Head of Real Estate and Underwritings in an international company.
+                            Strong believer that Real estate and crypto is the next big thing that is going to impact
+                            the industry. Handles all the legal matters of the project and is also relationship manager
+                            of HWT.</p>
                     </div>
                 </div>
                 <div class="meet_card">
@@ -152,13 +155,12 @@
                         <img src="/imgs/tigers/tiger3.jpg">
                     </div>
                     <div class="meet_card_body">
-                        <h3>Andrew Mack</h3>
-                        <h4>Founder & CEO</h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                            voluptatem sequi nesciunt.</p>
+                        <h3>Andromeda</h3>
+                        <h4>Artist</h4>
+                        <p>Is the artist of HWT. Studied architecture and decided that drawing is what fulfil her as
+                            person before even finish her studies. She is drawing professionally over 15 years now. This
+                            is her first time in creating NFTs. She has a very unique style that is rarely spotted. All
+                            NFTs are hand drawn. Her MOTO is “ Enjoy your work and love yourself”</p>
                     </div>
                 </div>
             </div>

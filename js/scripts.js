@@ -28,11 +28,14 @@ $(document).ready(function () {
   //   }
 
   function checkForHash() {
-    if (window.location.hash) {
-      setTimeout(function () {
-        moveTo("." + window.location.hash.substring(1));
-      }, 1000);
-    }
+    setTimeout(function () {
+      if (window.location.hash) {
+        console.log("HAD HASH = ", window.location.hash);
+        setTimeout(function () {
+          moveTo("." + window.location.hash.substring(1));
+        }, 500);
+      }
+    }, 500);
   }
 
   checkForHash();

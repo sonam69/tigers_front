@@ -67,14 +67,23 @@
                     both NFTs (the two NFTs will be merged into one, thus they will be burned). In order for this
                     request to take place Popcorn must be paid. As we evolve our ecosystem Popcorn will be getting more
                     utility as voting rights and more.</p>
+                <h2>Combined NFTS</h2>
+                <p>Combined NFTs are, the HWT NFTs combined with their matched item NFT. Combined NFTs have Royalty
+                    rewards. Whoever holds combined NFTs will be getting airdrops of every new NFT our BRAND releases. 1
+                    combined NFT equals of 5 HWT NFTs.</p>
+                <p>Some of our actor tigers you will notice that are able to be minted in different roles (like Johnny
+                    Depp, Uma Thurman, Jim Carrey etc) If an individual manages to collect all 10 roles of such an actor
+                    and create the combined NFTs of those, then our artist and the individual will create together a
+                    golden NFT of the said actor. There will be able to be created only 10 golden NFTs and they will be
+                    have the perks as being a holder of 50 HWT NFTs.</p>
                 <h2>Post Presale</h2>
                 <p>When first presale ends, tokens will be staked. Everyone will be able to stake their tokens with only
                     one condition tokens must be staked at full entities (1 full token, 10 full tokens not 1,5 not
-                    10,3). Staked Tokens will be accumulating Popcorn. An extra 50 popcorn will be airdropped for every
+                    10,3). Staked Tokens will be accumulating Popcorn. An extra 50 popcorn will be airdropped for every
                     5 HTW staked. {if someone stakes 20 HTW will get (20*50) + (4*50) =1200 Popcorn}. If someone stakes
                     more than 20 HTW, then the extra Popcorn will be 100 instead for every 5 staked. That means that if
                     you stake 25 HTW you will be getting (25*50) + (5*100) = 1250 +500 = 1750 Popcorn.</p>
-                <p>200 HWT tokens will be able to be traded for 100 Popcorn each. There will be created 3.500.000
+                <p>200 HWT tokens will be able to be traded for 100 Popcorn each. There will be created 3.500.000
                     popcorn multiplied by the months left, after the staking starts, for the year to end. That means
                     that if staking starts on May, then 12-5=7, will be created 24,5 million of Popcorn. There will be
                     two wallets holding Popcorn, one will hold the Popcorns issued at first and the other wallet will
@@ -83,7 +92,7 @@
                     Popcorns held in the 1st wallet (the one holding the issuing tokens) will be burned. This will give
                     Popcorns deflationary value. The only Popcorns that will be left, will be those that are already
                     circulating.</p>
-                <p>1/3 of the money the project will be making will be Reinvested. This will happen for 2 reasons.1st:
+                <p>1/3 of the money the project will be making will be Reinvested. This will happen for 2 reasons. 1st:
                     We are planning to make a brand out of our name. We will be the most exclusive club and we plan on
                     be active with many more features joining our brand later on. Planning on ahead, it is better to
                     make our money work for us instead of sitting on a bank account.</p>

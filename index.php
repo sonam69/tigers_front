@@ -68,7 +68,7 @@
                 <div class="container">
                     <div class="banner_content fadeInUp">
                         <h2>About <br>Hollywood Tigers</h2>
-                        <h3>Are you kind enough?</h3>
+                        <!-- <h3></h3> -->
                         <p>OUR vision is to create an exclusive club for tigers. We want to create an ELITE community,
                             that will help its members, educate them and also help them navigate on the XRPL ecosystem
                             that is growing.</p>

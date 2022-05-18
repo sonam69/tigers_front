@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
         content="Hollywood Tigers is the most elegant, snob, old-fashioned club you will ever find. Join our club in order to become member to one of the most limited spaces clubs in the space.">
-    <meta name="keywords" content="nft, crypto, mint, airdrop, Hollywood Tigers">
+    <meta name="keywords" content="nft, crypto, XRPL, mint, airdrop, Hollywood Tigers, HWTigers">
     <meta http-equiv="content-language" content="en-us">
     <title>Hollywood Tigers</title>
 

@@ -17,7 +17,7 @@
         </div>
         <div class="header_right">
             <ul class="social">
-                <li class="fadeInUp delay3200ms"><a href="https://discord.gg/KehegsXN" target="_blank" class="discord"
+                <li class="fadeInUp delay3200ms"><a href="https://discord.gg/JK9NAAkQ" target="_blank" class="discord"
                         title="discord"><span>DISCORD</span></a></li>
             </ul>
             <div id="burger" onclick="toggle_menu(true)">

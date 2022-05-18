@@ -57,7 +57,7 @@
                 <p class="fadeIn delay1800ms">Hollywood tigers is the most snob club on the XRPL. We are Grumpy, we are
                     Snob, we are stars we are
                     the Hollywood tigers of the XRPL. There will be only 1.000 Hollywood tigers created.</p>
-                <a class="btn fadeIn delay2200ms" target="_blank" href="https://discord.gg/KehegsXN">Enter the club</a>
+                <a class="btn fadeIn delay2200ms" target="_blank" href="https://discord.gg/JK9NAAkQ">Enter the club</a>
             </div>
             <div class="hero_image_wrapper">
                 <div class="hero_image fadeIn delay1000ms"></div>
@@ -97,7 +97,7 @@
                             </div>
                             BUY WHT
                         </a>
-                        <a class="banner_card fadeInUp delay800ms" target="_blank" href="https://discord.gg/KehegsXN"
+                        <a class="banner_card fadeInUp delay800ms" target="_blank" href="https://discord.gg/JK9NAAkQ"
                             title="discord">
                             <div class="banner_card_img">
                                 <img src="../imgs/banner/discord.svg">

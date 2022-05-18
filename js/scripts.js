@@ -30,7 +30,6 @@ $(document).ready(function () {
   function checkForHash() {
     setTimeout(function () {
       if (window.location.hash) {
-        console.log("HAD HASH = ", window.location.hash);
         setTimeout(function () {
           moveTo("." + window.location.hash.substring(1));
         }, 500);

@@ -91,7 +91,7 @@
                             </div>
                             SET TRUSTLINE </br>FOR HWT
                         </a>
-                        <a class="banner_card fadeInUp delay600ms" target="_blank" href="" title="WHT">
+                        <a class="banner_card fadeInUp delay600ms" target="_blank" href="https://sologenic.org/trade?network=mainnet&market=HWT%2BrGXPVoPPk8d2cSKFzvugzgTRfyro96z937%2FXRP" title="WHT">
                             <div class="banner_card_img">
                                 <img src="../imgs/banner/cart.svg">
                             </div>
